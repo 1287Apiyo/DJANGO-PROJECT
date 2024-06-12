@@ -1,6 +1,5 @@
-#from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render
+
 
 # Create your views here.
-def index(request):
-    return HttpResponse("My First Webpage with Python Django")
+def  product_list(request):
